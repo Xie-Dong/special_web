@@ -51,6 +51,7 @@ footer .friendlink a {
     padding:0px;
     font-size: 15px;
     text-decoration: none;
+    font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
 }
 footer .friendlink ul {
     margin-top: 15px;
@@ -76,6 +77,7 @@ footer .address {
 }
 footer .address p {
     color: #9d9d9d;
+    font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
 }
 
 /* content div */
