@@ -1,0 +1,122 @@
+/* css for all pages */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* body */
+body {
+    margin: 0 auto;
+    width: 1024px;
+    /*background: #e8e8e8;*/
+    background: #787162;
+}
+/* main container */
+.container {
+    box-shadow: 0px 0px 10px #1b1b1b;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #fce2ac;
+}
+
+/* header */
+header {
+    top: 0px;
+    position: relative;
+    width: 1024px;
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    top: 0px;
+    position: relative;
+    width: 1024px;
+    text-align: center;
+}
+footer .friendlink {
+    height: 40px;
+}
+footer .friendlink .friendlinksmallblock {
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 610px;
+}
+footer .friendlink a {
+    color: #711010;
+    padding:0px;
+    font-size: 15px;
+    text-decoration: none;
+}
+footer .friendlink ul {
+    margin-top: 15px;
+    display: inline;
+}
+footer .friendlink li {
+    list-style: none;
+    float: left;
+    margin-right: 9px;
+    margin-left: 9px;
+}
+footer .friendlink .line {
+    margin-top: 5px;
+    width: 3px;
+    height: 15px;
+    background: url(../image/red.png) repeat-y;
+}
+footer .address {
+    width: 1024px;
+    position: absolute;
+    top: 63px;
+    font-size: 14px;
+}
+footer .address p {
+    color: #9d9d9d;
+}
+
+/* content div */
+
+.content {
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-right:50px;
+}
+
+/* navbar */
+.navbar {
+    background: #c80715;
+    height: 25px;
+    width: 100%;
+}
+.navbar ul {
+    display: inline;
+}
+.navbar li{
+    list-style:none;
+    float:left;
+}
+.navbar a {
+    margin-left: 20px;
+    margin-right: 17px;
+    padding:0px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+}
+.navbar .line {
+    margin-top: 5px;
+    width: 3px;
+    height: 15px;
+    background: url(../image/white.png) repeat-y;
+}
+
+.innercontent {
+    background: #fdffe3;
+    height: 1000px;
+    width: 100%;
+}
