@@ -37,6 +37,7 @@ footer {
     width: 1024px;
     text-align: center;
     height: 152px;
+    clear: both;
 }
 footer .friendlink {
     height: 40px;
@@ -86,6 +87,7 @@ footer img {
     border:0;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    clear: both;
 }
 
 
