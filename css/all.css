@@ -36,6 +36,7 @@ footer {
     position: relative;
     width: 1024px;
     text-align: center;
+    height: 152px;
 }
 footer .friendlink {
     height: 40px;
@@ -79,6 +80,14 @@ footer .address p {
     color: #9d9d9d;
     font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
 }
+footer img {
+    padding: 0;
+    margin: 0;
+    border:0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 
 /* content div */
 
