@@ -2,8 +2,6 @@
 .innercontent {
     background: #fdffe3;
     width: 100%;
-    height: 800px;
-    clear: both;
 }
 .contain_left{
     margin: 5px 7px;
@@ -65,4 +63,135 @@
     line-height: 40px;
     text-align: center;
     /* height: 80px; */
+}
+/*--------List内容开始---------*/
+/*li {*/
+    /*font-size: 22px;*/
+    /*color: #900;*/
+    /*!* font-family: 微软雅黑; *!*/
+    /*height: 34px;*/
+    /*line-height: 34px;*/
+    /*font-size: 15px;*/
+    /*list-style-type: none;*/
+/*}*/
+/*ul {*/
+    /*display: block;*/
+    /*list-style-type: disc;*/
+    /*-webkit-margin-before: 1em;*/
+    /*-webkit-margin-after: 1em;*/
+    /*-webkit-margin-start: 0px;*/
+    /*-webkit-margin-end: 0px;*/
+    /*-webkit-padding-start: 40px;*/
+/*}*/
+.contain_left .mid_contain_list {
+    margin: 0px 2px 5px 2px;
+    font-size: 22px;
+}
+.mid_contain_list ul{
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.mid_contain_list li {
+    border-bottom: dotted 1px #999999;
+    font-size: 22px;
+    /* font-family: 微软雅黑; */
+    height: 34px;
+    line-height: 34px;
+    font-size: 15px;
+    list-style-type: none;
+}
+.mid_contain_list a:link{
+    text-decoration: none;
+     color: black;
+}
+.mid_contain_list a:hover{
+    color: #c80715;
+}
+.mid_contain_list a:visited{
+     color: black;
+}
+
+
+/*--------List内容结束---------*/
+/*中间分割线*/
+.contain_mid_Line{
+    border-left: solid 1px #999999;
+    float: left;
+    height: 755px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.contain_left, .contain_right{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+/*右边的框*/
+.contain_right{
+    width: 260px;
+    /*background-color: #990000;  !*测试使用2*!*/
+}
+.contain_right1{
+    height: 423px;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 100%;
+    /*background-color: white;*/
+    /*padding: 5px 20px 5px 10px;*/
+
+}
+/*--------右边标题开始----------*/
+.contain_right1 .title{
+    background: url("../image/title3.jpg")no-repeat;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    height: 34px;
+    font-weight: bold;
+}
+.contain_right1 .title a:link{
+    text-decoration: none;
+    color: #900;
+}
+.contain_right1 .title a:hover{
+    color: #F03;
+}
+/*-------点击进入------开始-----------*/
+#inner_a{
+    font-size: 8px;
+    padding-left: 100px;
+
+}
+#inner_a a:link{
+    text-decoration: none;
+    color: #999999;
+}
+#inner_a a:hover{
+    text-decoration: none;
+    color: #F03;
+}
+/*----------右边图片-----开始----------*/
+.contain_right1_img{
+
+}
+.contain_right1_img img{
+    width: 240.12px;
+    height: 153.36px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*-----图片下方文字-----------------*/
+.contain_right1_img p{
+    color: #999999;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }

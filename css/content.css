@@ -60,6 +60,9 @@
 .top_contain_name .title a:hover{
     color: #F03;
 }
+.top_contain_name .title a:visited{
+    color: #900;
+}
 .mid_contain{
     margin: 0px 30px 5px 23px;
     font-size: 22px;
@@ -130,6 +133,9 @@
 }
 .contain_right1 .title a:hover{
     color: #F03;
+}
+.contain_right1 .title a:visited{
+    color: #900;
 }
 /*-------点击进入------开始-----------*/
 #inner_a{
