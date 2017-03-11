@@ -49,6 +49,11 @@
     text-decoration: none;
     color: #900;
 }
+.top_contain_name .title a:visited{
+    text-decoration: none;
+    color: #900;
+}
+
 .top_contain_name .title a:hover{
     color: #F03;
 }
@@ -109,12 +114,13 @@
     text-decoration: none;
      color: black;
 }
+.mid_contain_list a:visited{
+    color: black;
+}
 .mid_contain_list a:hover{
     color: #c80715;
 }
-.mid_contain_list a:visited{
-     color: black;
-}
+
 
 
 /*--------List内容结束---------*/
@@ -160,6 +166,9 @@
     text-decoration: none;
     color: #900;
 }
+.contain_right1 .title a:visited{
+       color: #900;
+}
 .contain_right1 .title a:hover{
     color: #F03;
 }
@@ -173,8 +182,10 @@
     text-decoration: none;
     color: #999999;
 }
+#inner_a a:visited{
+    color: #999999;
+}
 #inner_a a:hover{
-    text-decoration: none;
     color: #F03;
 }
 /*----------右边图片-----开始----------*/
