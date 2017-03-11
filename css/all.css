@@ -23,7 +23,7 @@ body {
 
 /* header */
 header {
-    top: 0px;
+    top: 0;
     position: relative;
     width: 1024px;
     text-align: center;
@@ -32,12 +32,13 @@ header {
 /* footer */
 
 footer {
-    top: 0px;
+    top: 0;
     position: relative;
     width: 1024px;
     text-align: center;
     height: 152px;
     clear: both;
+    left: 0;
 }
 footer .friendlink {
     height: 40px;
