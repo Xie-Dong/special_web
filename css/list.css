@@ -39,7 +39,7 @@
 .top_contain_name .title{
     background: url("../image/title1.jpg")no-repeat;
     font-size: 18px;
-    padding-top: 5px;
+    padding-top: 8px;
     padding-bottom: 5px;
     padding-left: 40px;
     height: 34px;
@@ -49,6 +49,11 @@
     text-decoration: none;
     color: #900;
 }
+.top_contain_name .title a:visited{
+    text-decoration: none;
+    color: #900;
+}
+
 .top_contain_name .title a:hover{
     color: #F03;
 }
@@ -109,12 +114,13 @@
     text-decoration: none;
      color: black;
 }
+.mid_contain_list a:visited{
+    color: black;
+}
 .mid_contain_list a:hover{
     color: #c80715;
 }
-.mid_contain_list a:visited{
-     color: black;
-}
+
 
 
 /*--------List内容结束---------*/
@@ -150,7 +156,7 @@
 .contain_right1 .title{
     background: url("../image/title3.jpg")no-repeat;
     font-size: 18px;
-    padding-top: 5px;
+    padding-top: 8px;
     padding-bottom: 5px;
     padding-left: 40px;
     height: 34px;
@@ -160,21 +166,26 @@
     text-decoration: none;
     color: #900;
 }
+.contain_right1 .title a:visited{
+       color: #900;
+}
 .contain_right1 .title a:hover{
     color: #F03;
 }
 /*-------点击进入------开始-----------*/
 #inner_a{
     font-size: 8px;
-    padding-left: 100px;
+    padding-left: 80px;
 
 }
 #inner_a a:link{
     text-decoration: none;
     color: #999999;
 }
+#inner_a a:visited{
+    color: #999999;
+}
 #inner_a a:hover{
-    text-decoration: none;
     color: #F03;
 }
 /*----------右边图片-----开始----------*/
