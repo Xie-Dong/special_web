@@ -260,6 +260,12 @@
 .box2 .right .history_img {
     text-align: center;
 }
+.box2 .right .history_img a:link {
+    text-decoration: none;
+}
+.box2 .right .history_img a:visited {
+    text-decoration: none;
+}
 .box2 .right .history_img img {
     width: 215px;
 }
