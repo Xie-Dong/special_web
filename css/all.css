@@ -1,5 +1,4 @@
 /* css for all pages */
-
 * {
     margin: 0;
     padding: 0;
@@ -29,9 +28,9 @@ header {
     text-align: center;
 }
 
-/* footer */
+/* .footer */
 
-footer {
+.footer {
     top: 0;
     position: relative;
     width: 1024px;
@@ -40,49 +39,49 @@ footer {
     clear: both;
     left: 0;
 }
-footer .friendlink {
+.footer .friendlink {
     height: 40px;
 }
-footer .friendlink .friendlinksmallblock {
+.footer .friendlink .friendlinksmallblock {
     margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     width: 610px;
 }
-footer .friendlink a {
+.footer .friendlink a {
     color: #711010;
     padding:0px;
     font-size: 15px;
     text-decoration: none;
     font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
 }
-footer .friendlink ul {
+.footer .friendlink ul {
     margin-top: 15px;
     display: inline;
 }
-footer .friendlink li {
+.footer .friendlink li {
     list-style: none;
     float: left;
     margin-right: 9px;
     margin-left: 9px;
 }
-footer .friendlink .line {
+.footer .friendlink .line {
     margin-top: 5px;
     width: 3px;
     height: 15px;
     background: url(../image/red.png) repeat-y;
 }
-footer .address {
+.footer .address {
     width: 1024px;
     position: absolute;
     top: 63px;
     font-size: 14px;
 }
-footer .address p {
+.footer .address p {
     color: #9d9d9d;
     font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
 }
-footer img {
+.footer img {
     padding: 0;
     margin: 0;
     border:0;
