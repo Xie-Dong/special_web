@@ -160,21 +160,39 @@
 
 /*----------右边图片-----开始----------*/
 .contain_right1_img{
-
+    text-align: center;
 }
 .contain_right1_img img{
     width: 240.12px;
     height: 153.36px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 /*-----图片下方文字-----------------*/
 .contain_right1_img p{
     color: #999999;
+    text-decoration: none;
     text-align: center;
     font-size: 18px;
     margin-top: 5px;
+    margin-bottom: 10px;
+}
+.contain_right1_img a:link{
+    color: #999999;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 5px;
     margin-bottom: 5px;
+}
+.contain_right1_img a:visited{
+    color: #999999;
+
+}
+.contain_right1_img a:hover{
+    color: #F03;;
+
 }
 /*-------点击进入------结束-----------*/
 /*--------右边标题结束----------*/
