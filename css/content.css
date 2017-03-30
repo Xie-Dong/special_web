@@ -83,6 +83,10 @@
     /*text-indent:50px;*/
     /* font-family: 黑体; */
 }
+.mid_contain_paragraph img{
+    width:100%;
+    margin:auto;
+}
 .mid_contain_paragraph p {
     display: block;
     text-indent: 2em;
